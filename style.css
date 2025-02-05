@@ -71,7 +71,8 @@ p {
 }
 
 .premium-bg {
-  width: 1120px;
+  width: 100%;
+  max-width: 1120px;
   height: 600px;
   background-color: #191826;
   padding: 10px;
@@ -80,6 +81,34 @@ p {
   background-image: url(assets/bg-pattern-2.svg);
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+
+.phone-form-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+.phone img {
+  width: 312px;
+}
+
+.phone {
+  position: absolute;
+  margin-top: -1190px;
+  margin-left: 130px;
+
+}
+
+.signup-form {
+  position: absolute;
+  margin-top: -800px;
+  margin-left: 561px;
+  width: 100%;
 }
 
 
@@ -87,14 +116,21 @@ p {
 .signup-form {
   background: #FA7453;
   padding: 56px;
+
   max-width: 512px;
   border-radius: 16px;
+  max-height: 632px;
+
 }
 
 h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 110%;
+}
+
+.eq-description {
+  margin-block: 24px 40px;
 }
 
 .four {
@@ -109,6 +145,7 @@ h3 {
 
 button {
   border: none;
+  width: 400px;
 }
 
 .ios-download {
@@ -120,12 +157,20 @@ button {
   color: white;
   padding: 16px 125px;
   border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 180%;
 }
 
 .pricing {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-bottom: 48px;
 }
 
 .price {
@@ -144,6 +189,12 @@ button {
   color: #191826;
   padding: 16px 105px;
   border-radius: 12px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
 }
 
 /* MEDIA QUERIES */
