@@ -70,6 +70,15 @@ p {
   color: #191826;
 }
 
+.premium-bg {
+  width: 1120px;
+  height: 600px;
+  background-color: #191826;
+  padding: 10px;
+  text-align: center;
+  margin-block: 200px;
+  background-image: ;
+}
 
 /* MEDIA QUERIES */
 @media screen and(max-width: 1100PX) {
