@@ -104,23 +104,20 @@ p {
 
 }
 
-.signup-form {
-  position: absolute;
-  margin-top: -800px;
-  margin-left: 561px;
-  width: 100%;
-}
+
 
 
 /* SIGIN UP FORM */
 .signup-form {
   background: #FA7453;
   padding: 56px;
-
   max-width: 512px;
   border-radius: 16px;
   max-height: 632px;
-
+  position: absolute;
+  margin-top: -800px;
+  margin-left: 561px;
+  width: 100%;
 }
 
 h3 {
