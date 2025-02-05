@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  --cyan-color: #66E2DC;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans";
+  background-color: #FCFAF9;
+  background-image: url(assets/bg-main-desktop.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.wrapper {
+  width: 90%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 64px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-content {
+  margin-top: 128px;
+}
+
+.header-img {
+  margin-right: -81px;
+  margin-top: -105px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 100%;
+  color: #191826;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #191826;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and(max-width:1100PX) {
+  body {
+    margin: 0;
+    font-family: "IBM Plex Sans";
+    background-color: #FCFAF9;
+    background-image: url(assets/bg-main-tablet.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
