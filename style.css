@@ -20,6 +20,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 
@@ -28,6 +29,7 @@ body {
   width: 90%;
   max-width: 1120px;
   margin: 0 auto;
+
 }
 
 nav {
@@ -49,6 +51,7 @@ ul li {
 .header-img {
   margin-right: -81px;
   margin-top: -105px;
+  display: block;
 }
 
 h1 {
@@ -69,7 +72,7 @@ p {
 
 
 /* MEDIA QUERIES */
-@media screen and(max-width:1100PX) {
+@media screen and(max-width: 1100PX) {
   body {
     margin: 0;
     font-family: "IBM Plex Sans";
@@ -78,5 +81,31 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  body {
+    background-image: url(assets/bg-main-mobile.png);
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #191826;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
   }
 }
