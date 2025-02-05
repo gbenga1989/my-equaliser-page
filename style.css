@@ -77,7 +77,35 @@ p {
   padding: 10px;
   text-align: center;
   margin-block: 200px;
-  background-image: ;
+  background-image: url(assets/bg-pattern-2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* SIGIN UP FORM */
+.signup-form {
+  background: #FA7453;
+  padding: 56px;
+  max-width: 512px;
+  border-radius: 16px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110%;
+}
+
+.ios-download {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #191826;
+  color: white;
+  padding: 16px 130px;
+  border-radius: 12px;
 }
 
 /* MEDIA QUERIES */
