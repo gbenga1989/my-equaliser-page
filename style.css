@@ -201,8 +201,8 @@ button {
     font-family: "IBM Plex Sans";
     background-color: #FCFAF9;
     background-image: url(assets/bg-main-tablet.png);
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover;
+    background-position: center; */
     background-repeat: no-repeat;
   }
 }
