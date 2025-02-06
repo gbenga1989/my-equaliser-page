@@ -290,13 +290,12 @@ button {
   .signup-form {
     background: #FA7453;
     padding: 45px;
-    max-width: 356px;
+    max-width: 100%;
     border-radius: 16px;
     max-height: 632px;
     position: absolute;
-    margin-top: -800px;
-    margin-left: 400px;
-    width: 100%;
+    margin-top: 185px;
+    margin-left: 18px;
   }
 
   button {
@@ -307,6 +306,7 @@ button {
 
   .ios-download {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5px;
