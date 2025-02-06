@@ -43,6 +43,7 @@ ul li {
 
 .header-container {
   display: flex;
+  position: relative;
 }
 
 .header-content {
@@ -50,9 +51,12 @@ ul li {
 }
 
 .header-img {
-  margin-right: -81px;
   margin-top: -105px;
-  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: auto;
 }
 
 h1 {
