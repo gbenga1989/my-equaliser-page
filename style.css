@@ -200,6 +200,30 @@ button {
 }
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    max-width: 450px;
+  }
+
+  p {
+    max-width: 500px;
+  }
+
+  .header-img {
+    margin-top: -105px;
+    margin-right: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 266px;
+    height: auto;
+  }
+}
+
 @media screen and(max-width: 1100PX) {
   body {
     margin: 0;
@@ -210,7 +234,14 @@ button {
     background-position: center;
     background-repeat: no-repeat;
   }
+
+
+
 }
+
+
+
+
 
 @media screen and (max-width: 500px) {
 
