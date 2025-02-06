@@ -21,7 +21,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   overflow-x: hidden;
-  max-width: 100%;
 }
 
 
@@ -43,7 +42,6 @@ ul li {
 
 .header-container {
   display: flex;
-  position: relative;
 }
 
 .header-content {
@@ -51,12 +49,9 @@ ul li {
 }
 
 .header-img {
+  margin-right: -81px;
   margin-top: -105px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100px;
-  height: auto;
+  display: block;
 }
 
 h1 {
@@ -200,31 +195,7 @@ button {
 }
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 1200px) {
-  h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    max-width: 450px;
-  }
-
-  p {
-    max-width: 500px;
-  }
-
-  .header-img {
-    margin-top: -105px;
-    margin-right: 100px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 266px;
-    height: auto;
-  }
-}
-
-@media screen and(max-width: 1100PX) {
+@media screen and (max-width: 1100px) {
   body {
     margin: 0;
     font-family: "IBM Plex Sans";
@@ -235,13 +206,49 @@ button {
     background-repeat: no-repeat;
   }
 
+  .header-img {
+    margin-right: -102px;
+    margin-top: -169px;
+    display: block;
+  }
 
+  .signup-form {
+    background: #FA7453;
+    padding: 56px;
+    max-width: 356px;
+    border-radius: 16px;
+    max-height: 632px;
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 561px;
+    width: 100%;
+  }
+
+  button {
+    border: none;
+    width: 260px;
+  }
+
+
+  .ios-download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #191826;
+    color: white;
+    padding: 16px 125px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+  }
+
+  .text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 180%;
+  }
 
 }
-
-
-
-
 
 @media screen and (max-width: 500px) {
 
