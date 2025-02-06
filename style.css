@@ -192,6 +192,15 @@ button {
   font-size: 64px;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .description {
+  max-width: 500px;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1100px) {
   body {
