@@ -264,6 +264,13 @@ button {
 
 @media screen and (max-width: 500px) {
 
+  .wrapper {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+
+  }
+
   body {
     background-image: url(assets/bg-main-mobile.png);
   }
@@ -287,6 +294,17 @@ button {
     font-size: 16px;
   }
 
+  .phone {
+    position: absolute;
+    margin-top: -1510px;
+    margin-left: 30px;
+
+  }
+
+  .premium-bg {
+    margin-top: 400px;
+  }
+
   .signup-form {
     background: #FA7453;
     padding: 45px;
@@ -295,7 +313,7 @@ button {
     max-height: 632px;
     position: absolute;
     margin-top: 185px;
-    margin-left: 18px;
+    margin-left: 1px;
   }
 
   button {
