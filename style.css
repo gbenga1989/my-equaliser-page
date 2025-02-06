@@ -160,7 +160,6 @@ button {
 .text {
   font-weight: 700;
   font-size: 18px;
-  line-height: 180%;
 }
 
 .pricing {
@@ -191,7 +190,6 @@ button {
 .price {
   font-weight: 700;
   font-size: 64px;
-  line-height: 110%;
 }
 
 /* MEDIA QUERIES */
@@ -214,13 +212,13 @@ button {
 
   .signup-form {
     background: #FA7453;
-    padding: 56px;
+    padding: 45px;
     max-width: 356px;
     border-radius: 16px;
     max-height: 632px;
     position: absolute;
     margin-top: -800px;
-    margin-left: 561px;
+    margin-left: 400px;
     width: 100%;
   }
 
@@ -233,21 +231,35 @@ button {
   .ios-download {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 5px;
     background-color: #191826;
     color: white;
-    padding: 16px 125px;
-    border-radius: 12px;
-    margin-bottom: 16px;
+    padding: 10px;
+    padding-block: 20px;
   }
 
   .text {
-    font-weight: 700;
     font-size: 18px;
-    line-height: 180%;
+    align-items: center;
   }
 
+  .andriod-download {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    color: #191826;
+    padding: 10px;
+    padding-block: 20px;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 64px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -274,4 +286,56 @@ button {
     font-weight: 400;
     font-size: 16px;
   }
+
+  .signup-form {
+    background: #FA7453;
+    padding: 45px;
+    max-width: 356px;
+    border-radius: 16px;
+    max-height: 632px;
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 400px;
+    width: 100%;
+  }
+
+  button {
+    border: none;
+    width: 260px;
+  }
+
+
+  .ios-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #191826;
+    color: white;
+    padding: 10px;
+    padding-block: 20px;
+  }
+
+  .text {
+    font-size: 18px;
+    align-items: center;
+  }
+
+  .andriod-download {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    color: #191826;
+    padding: 10px;
+    padding-block: 20px;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 64px;
+  }
+
 }
